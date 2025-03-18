@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- write a program to print some messages in the browser -->
+    <!-- <script>
+        console.log("Hi Nouman");
+        alert("How are you");
+        document.write("<h1>I am Nouman and work on web development</h1>");
+    </script> -->
+
+    <!-- Write a program to Add two numbers  -->
+    <!-- <script>
+        let a = prompt("Enter your First number:"); // prompt is used for user input
+        let b = prompt("Enter your Second number");
+        let c = parseInt(a) + parseInt(b); // parseInt is for converting from string to int
+        console.log(c);
+    </script> -->
+
+    <!-- To find the Square root of a number in JavaScript -->
+    <!-- <script>
+        let val1 = prompt("Enter your number : ");
+        let val2 = Math.sqrt(val1);
+        console.log(val2); // we can concatinating the string and int
+    </script> -->
+
+    <!-- find the area of a Triangle -->
+    <!-- <script>
+        let base = prompt("Enter the first number :");
+        let height = prompt("Enter the second number :");
+        let area = (base * height)/2; // formula to find the right triangle
+        console.log("The base is :",base, "The height is : ",height, "and the result is:", area);
+    </script> -->
+
+    <!-- Swapping the Two numbers using temprory variable -->
+    <!-- <script>
+        let a = 3;
+        let b = 5;
+        console.log(`The value of a is ${a}\n The value of b is ${b},`);
+        // a = 3, b = 5;
+        console.log("After Swapping...")
+        temp = a;
+        a = b;
+        b = temp;
+        console.log(`The value of a is ${a}\n The value of b is ${b},`);
+    </script> -->
+
+    <!-- Swapping without using temprory variable -->
+    <!-- <script>
+        let x = parseInt(prompt("Enter first number..."))
+        let y = parseInt(prompt("Enter second number..."))
+        console.log(`The Number of X is ${x}\n The Number of y is ${y}`)
+        console.log("After Swapping....")
+        x = x + y; // 4 + 8 = 12
+        y = x - y; // y = 4
+        x = x - y; // x = 8
+        console.log(`The Number of X is ${x}\n The Number of y is ${y}`)
+    </script> -->
+
+    <!-- Conversion of kms to miles -->
+    <!-- <script>
+        function convert(){
+            let KMS = document.getElementById("Mydata").value;
+            const factor = 0.621371; // constant value
+            let miles = KMS * factor; // formula
+            // alert(miles);
+            document.getElementById("ShowResult").innerText = `${miles} Miles`;
+            
+        }
+    </script>
+    <input type="number" name="" id="Mydata"> KMS
+    <button onclick="convert()">Convert</button> miles
+    <h3 id="ShowResult"></h3> -->
+
+    <!-- Convert Celsius To Fahrenheit -->
+    <!-- <script>
+        function convert(){
+            let c = document.getElementById("data").value;
+            let f = (c * 1.8) + 32;
+            // alert(f);
+            document.getElementById("result").innerText = `${c} Celsius = ${f} Fahrenheit`;
+            
+        }
+    </script>
+    <input type="" name="" id="data"> Celsius 
+    <button onclick="convert()">Convert!</button> To Fahrenheit
+    <h2 id="result"></h2> -->
+
+    <!-- write a program to check is the Positive Negative & Zero -->
+    <!-- <script>
+        function check(){
+            let val = document.getElementById("data").value;
+            // let res = Math.sign(val); // find by formula (Math.sign)
+            // find by if statement 
+            if (val > 0){
+                res = `${val} is Positive Number `
+            }
+            else if (val < 0){
+                res = `${val} is Negative Number `
+            }
+            else if (val == 0){
+                res = `${val} is Zero Number `
+            }
+            else {
+                res = `${val} is Not a Number `
+            }
+            document.getElementById("res").innerText = res;
+        }
+    </script>
+    <input type="text" name="" id="data">
+    <button onclick="check()">Check Number</button>
+    <h3 id="res"></h3> -->
+    
+</body>
+</html>
